@@ -1,6 +1,6 @@
 {
   "name": "@alheimsins/webquality",
-  "description": "Measure quality of a page using Lighthouse and Observatory",
+  "description": "Test your site using Lighthouse and Observatory",
   "version": "1.0.0",
   "license": "MIT",
   "publishConfig": {
@@ -28,10 +28,11 @@
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
-    "bigfive",
-    "personality",
-    "items",
-    "johnson-120-ipip-neo-pi-r"
+    "web",
+    "quality",
+    "test",
+    "lighthouse",
+    "observatory"
   ],
   "repository": {
     "type": "git",
