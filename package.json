@@ -20,7 +20,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "standard && npm audit && ava",
+    "test": "standard && ava",
     "test-offline": "standard && ava",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
