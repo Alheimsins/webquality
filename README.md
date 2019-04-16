@@ -61,6 +61,8 @@ returns
 ]
 ```
 
+Throws error if any of the tests fails.
+
 ## Development
 
 If you need to see the logs you can add `debug` to your environment.
