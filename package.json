@@ -1,7 +1,7 @@
 {
   "name": "@alheimsins/webquality",
   "description": "Test your site using Lighthouse and Observatory",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
