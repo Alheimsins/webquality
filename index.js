@@ -1,12 +1,12 @@
 const checkLighthouse = require('./lib/check-lighthouse')
-const checkObservatory = require('./lib/check-observatory')
+const checkSecurityheaders = require('./lib/check-securityheaders')
 
 module.exports = async url => {
   try {
-    const [lighthouse, observatory] = await Promise.all([checkLighthouse(url), checkObservatory(url)])
+    const [lighthouse, securityheaders] = await Promise.all([checkLighthouse(url), checkSecurityheaders(url)])
     return [
       ...lighthouse,
-      ...observatory
+      ...securityheaders
     ]
   } catch (error) {
     throw error

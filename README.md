@@ -3,7 +3,7 @@
 
 # webquality
 
-Check your site using [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [Observatory](https://observatory.mozilla.org/)
+Check your site using [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [Security Headers](https://securityheaders.com/)
 
 This will measure performance, accessibility, best practices, SEO and security.
 
@@ -18,7 +18,7 @@ Depending on your site tests typically will run for 10 - 20 seconds.
 ```JavaScript
 (async () => {
   const wq = require('@alheimsins/webquality')
-  const results = await wq('https://www.alheimsins.net')
+  const results = await wq('https://www.google.com')
   console.log(results)
 })()
 ```
@@ -52,11 +52,11 @@ returns
     "manualDescription": "Run these additional validators on your site to check additional SEO best practices."
   },
   {
-    "id": "observatory",
+    "id": "securityheaders",
     "title": "Security",
     "score": 0,
     "grade": "F",
-    "description": "The Mozilla Observatory teaches you how to configure your sites safely and securely. https://observatory.mozilla.org"
+    "description": "Security Headers https://securityheaders.com is created by Scott Helme https://scotthelme.co.uk/ to drive up the usage of security based headers across the web."
   }
 ]
 ```
