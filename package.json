@@ -32,7 +32,7 @@
     "quality",
     "test",
     "lighthouse",
-    "observatory"
+    "securityheaders"
   ],
   "repository": {
     "type": "git",
