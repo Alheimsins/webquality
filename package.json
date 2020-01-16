@@ -55,7 +55,6 @@
     }
   },
   "dependencies": {
-    "axios": "0.19.1",
-    "then-sleep": "1.0.1"
+    "axios": "0.19.1"
   }
 }

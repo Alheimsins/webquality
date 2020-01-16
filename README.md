@@ -71,7 +71,7 @@ If you need to see the logs you can add `debug` to your environment.
 (async () => {
   process.env.debug = true
   const wq = require('@alheimsins/webquality')
-  const results = await wq('https://www.alheimsins.net')
+  const results = await wq('https://www.google.com')
   console.log(results)
 })()
 ```
