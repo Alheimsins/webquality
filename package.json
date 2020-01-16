@@ -1,6 +1,6 @@
 {
   "name": "@alheimsins/webquality",
-  "description": "Test your site using Lighthouse and Observatory",
+  "description": "Test your site using Lighthouse and Security Headers",
   "version": "1.0.5",
   "license": "MIT",
   "publishConfig": {
