@@ -13,7 +13,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=10.16.0"
+    "node": ">=12.14.1"
   },
   "files": [
     "lib/",
