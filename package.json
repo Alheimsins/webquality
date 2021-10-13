@@ -25,7 +25,8 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "prepare": "husky install"
   },
   "keywords": [
     "web",
@@ -48,11 +49,6 @@
     "husky": "7.0.2",
     "nyc": "15.1.0",
     "standard": "16.0.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
   },
   "dependencies": {
     "axios": "0.23.0"
