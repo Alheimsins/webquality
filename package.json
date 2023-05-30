@@ -46,7 +46,7 @@
     "ava": "4.3.3",
     "husky": "8.0.1",
     "nyc": "15.1.0",
-    "standard": "17.0.0"
+    "standard": "17.1.0"
   },
   "dependencies": {
     "axios": "0.27.2"
